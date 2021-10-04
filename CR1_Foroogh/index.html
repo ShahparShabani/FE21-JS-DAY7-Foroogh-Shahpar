@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CR1 Code Factory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <div class="row ow-m15 title">
+            <div class="column text-center-v1">
+                <h2 class="animate__animated animate__zoomInDown">Foroogh Full-Stack Web developer</h2>
+            </div>
+            <div class="column">
+                <img alt="logo" align="right" id="logo1" src="img/logo.png" />
+            </div>
+        </div>
+        <div class="row navbar align-right pr-2">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/Debit_card_ATM.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/Phone.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/Taxify-Scooters.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        <div class="row ow-m15">
+            <div class="container1">
+                <img src="img/Phone.png" class="container_img1" />
+            </div>
+            <div class="row">
+                <p class="p1">Samsung galaxy S11/S20 Plus video leaks showing phone in real life!</p>
+            </div>
+        </div>
+        <div class="row ow-m15">
+            <div class="div">
+                <div class="column">
+                    <div class="container1">
+                        <img src="img/Debit_card_ATM.jpg" class="container_img1" />
+                    </div>
+                    <p class="p1">
+                        Police are investigating three ATM<br />
+                        explosions in two Florida counties
+                    </p>
+                </div>
+                <div class="column">
+                    <div class="container1">
+                        <img src="img/Taxify-Scooters.jpg" class="container_img1" />
+                    </div>
+                    <p class="p1">
+                        E-scooter firm Bolt pulls out of 12<br />
+                        cities
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row title">
+            <div class="row text-center-v2">
+                <img alt="logo" align="center" id="logo2" src="img/logo.png" /><br />
+                <div class="a">Foroogh-CodeFactory 2021</div>
+            </div>
+        </div>
+         <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "flip",
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    </body>
+</html>
