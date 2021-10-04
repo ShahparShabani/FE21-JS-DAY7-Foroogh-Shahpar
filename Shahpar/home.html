@@ -1,128 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <!-- Link Animate's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Link Sweetalert's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./css/home.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Home page</title>
+  </head>
 
-  <title>Home page</title>
-
-</head>
-
-<body>
-  <div class="container">
-    <!-- Header container -->
-    <div id="header-container">
-      <div id="title-logo-wrapper" class="header-footer-bgcolor">
-        <span>Shahpar-Full-Stack Web Developer</span>
-        <img id="header-logo" src="./img/logo.png" alt="Header logo" />
-      </div>
-      <nav>
-        <ul>
-          <li><a class="active" href="./home.html">home</a></li>
-          <li><a href="./blog.html">blog</a></li>
-          <li><a href="./about-me.html">about me</a></li>
-          <li><a href="./contact.html">contact</a></li>
-        </ul>
-      </nav>
-
-      <!-- Swiper begin-->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-5.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-2.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-3.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img class="animate__animated animate__zoomIn" src="https://swiperjs.com/demos/images/nature-1.jpg" />
-          </div>
+  <body>
+    <div class="container">
+      <!-- Header container -->
+      <div id="header-container">
+        <div id="title-logo-wrapper" class="header-footer-bgcolor">
+          <span>Shahpar-Full-Stack Web Developer</span>
+          <img id="header-logo" src="./img/logo.png" alt="Header logo" />
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-    <!-- Swiper end-->
+        <nav>
+          <ul>
+            <li><a class="active" href="./home.html">home</a></li>
+            <li><a href="./blog.html">blog</a></li>
+            <li><a href="./about-me.html">about me</a></li>
+            <li><a href="./contact.html">contact</a></li>
+          </ul>
+        </nav>
 
-    <!-- Main container -->
-    <div id="main-container">
-      <h1>This is my first website :D</h1>
-      <div id="main-wrapper">
-        <figure class="mainImgRow" id="imgPhone">
-          <img src="./img/Phone.png" alt="Phone image" />
-          <figcaption>
-            Samsung Galexy S11/S20 Plus video leaks showing phone in real
-            life!
-          </figcaption>
-        </figure>
-        <section class="mainImgRow">
-          <figure id="imgDebit">
-            <img src="./img/Debit_card_ATM.jpg" alt="Debit cart image" />
+        <!-- Swiper begin-->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-5.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-2.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-3.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-4.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-8.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-6.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-7.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="animate__animated animate__zoomIn"
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Swiper end-->
+
+      <!-- Main container -->
+      <div id="main-container">
+        <h1>This is my first website :D</h1>
+        <div id="main-wrapper">
+          <figure class="mainImgRow" id="imgPhone">
+            <img src="./img/Phone.png" alt="Phone image" />
             <figcaption>
-              Police are invastigating three ATM explosions in two Florida
-              counties
+              Samsung Galexy S11/S20 Plus video leaks showing phone in real
+              life!
             </figcaption>
           </figure>
-          <figure id="imgScooter">
-            <img src="./img/Taxify-Scooters.jpg" alt="Scooter image" />
-            <figcaption>
-              E-scooter firm Blot pulls out of 12 cities
-            </figcaption>
-          </figure>
-        </section>
+          <section class="mainImgRow">
+            <figure id="imgDebit">
+              <img src="./img/Debit_card_ATM.jpg" alt="Debit cart image" />
+              <figcaption>
+                Police are invastigating three ATM explosions in two Florida
+                counties
+              </figcaption>
+            </figure>
+            <figure id="imgScooter">
+              <img src="./img/Taxify-Scooters.jpg" alt="Scooter image" />
+              <figcaption>
+                E-scooter firm Blot pulls out of 12 cities
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </div>
+
+      <!-- Footer container-->
+      <div id="footer-container" class="header-footer-bgcolor">
+        <img id="footer-logo" src="./img/logo.png" alt="Footer logo" />
+        <p>Shahpar-CodeFactory 2021</p>
       </div>
     </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Footer container-->
-    <div id="footer-container" class="header-footer-bgcolor">
-      <img id="footer-logo" src="./img/logo.png" alt="Footer logo" />
-      <p>Shahpar-CodeFactory 2021</p>
-    </div>
-  </div>
-  <!-- Swiper JS -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
-</body>
-
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- Sweetalert JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <script>
+      document
+        .querySelector("#header-logo")
+        .addEventListener("click", myFunction);
+      function myFunction() {
+        Swal.fire(
+          "Congratulations, you made it",
+          "This is an optional body message <br> for your window alert.",
+          "success"
+        );
+      }
+    </script>
+  </body>
 </html>

@@ -117,6 +117,7 @@ nav li .active {
   height: 7vw;
   width: auto;
   float: right;
+  cursor: pointer;
 }
 /* Header style end  */
 
