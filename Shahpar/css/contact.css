@@ -1,0 +1,25 @@
+#main-wrapper {
+    width: 70vw;
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+form {
+   margin-bottom: 3vw;
+}
+
+form input,textarea {
+    width: 60%;
+    margin-top: 1.5vw;
+    /* width: -webkit-fill-available; */
+}
+form input {
+    height: 1.5vw;
+}
+
+textarea {
+    height: 5vw;
+}
+
+

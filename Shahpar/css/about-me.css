@@ -1,0 +1,18 @@
+#main-container {
+    margin-bottom: 5vw;
+}
+
+#main-wrapper {
+padding: 0 5vw;
+}
+
+
+#main-wrapper img {
+    height: 25vw;
+    float: left;
+}
+
+#main-wrapper span {
+    line-height: 25vw;
+    font-size: 1.6vw;
+}

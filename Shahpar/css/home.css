@@ -1,0 +1,151 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.header-footer-bgcolor {
+  background-color: rgb(209, 178, 178);
+}
+
+/* Header style begin*/
+nav {
+  background-color: rgb(190, 49, 49);
+  clear: both; /*so that it doesn't slide up directly beneath the floated elements.*/
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0; /*sets all the margin properties*/
+  padding-right: 4vw;
+  overflow: hidden; /*whether to clip content or to add
+    scrollbars */
+  background-color: rgb(190, 49, 49);
+  float: right;
+}
+
+nav:after,
+nav ul:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+nav li {
+  float: left;
+  text-transform: capitalize;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+nav li .active {
+  background: #382e2a;
+  transition: 0.5s;
+}
+
+#title-logo-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2vw;
+  height: 12vw;
+}
+
+#title-logo-wrapper span {
+  float: left;
+  line-height: 9vw;
+  padding-left: 12vw;
+  font-size: 2vw;
+}
+
+#header-container img {
+  height: 7vw;
+  width: auto;
+  float: right;
+}
+/* Header style end  */
+
+/* Main container style begin*/
+#main-container h1 {
+  margin: 0;
+  padding: 1em 5em;
+  font-size: 5vw;
+}
+
+#main-wrapper {
+  overflow: hidden;
+}
+
+#main-wrapper figcaption {
+  font-weight: bolder;
+  font-size: 1.6vw;
+}
+
+#imgPhone img {
+  width: 70vw; /* width of container */
+  height: 20vw; /* height of container */
+  object-fit: cover;
+}
+
+.mainImgRow {
+  width: 70vw;
+  margin: auto;
+  margin-top: 1vw;
+}
+
+#imgDebit {
+  float: left;
+}
+
+#imgScooter {
+  float: right;
+}
+
+#imgDebit,
+#imgScooter {
+  width: 30vw;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#imgDebit img,
+#imgScooter img {
+  width: 100%;
+  height: auto;
+}
+
+#main-container {
+  text-align: center;
+}
+/* Main container style end */
+
+/* Footer style begin */
+#footer-container {
+  text-align: center;
+  padding: 20px;
+  clear: both;
+}
+
+#footer-container p {
+  font-size: 1.15vw;
+}
+
+#footer-container img {
+  width: 14vw;
+  height: auto;
+}
+/* Footer style end */
